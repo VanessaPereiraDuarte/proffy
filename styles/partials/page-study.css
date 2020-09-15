@@ -51,12 +51,17 @@
     align-items: center;
 }
 
-.teacher-item header img {
+.teacher-item header picture {
+    border-radius: 50%;
     width: 8rem;
     height: 8rem;
-    border-radius: 50%;
+    overflow: hidden;
 }
 
+.teacher-item header picture img {
+    width: auto;
+    height: 100%;
+}
 .teacher-item header div {
     margin-left: 2.4rem;
 }
